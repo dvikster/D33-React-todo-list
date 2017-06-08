@@ -1,0 +1,43 @@
+body{
+
+}
+.todolist{
+    max-width:600px;
+    margin:0 auto;
+    width: 100%;
+}
+.todolist-wrapper{
+    border-top: 1px solid #e6e6e6;
+    background: #fff;
+    margin: 0 0 40px 0;
+    position: relative;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+.none{
+    display: none;
+}
+h1{
+    text-align: center;
+    color: #3d6bad;
+}
+.task-input{
+    margin: 20px 0;
+    width:100%;
+    background: #fafafa;
+    padding:10px;
+    border: none;
+    outline: none;
+}
+/*.todolist-task{*/
+    /*font-size: 18px;*/
+    /*border-bottom: 1px solid #ededed;*/
+    /*padding:10px;*/
+/*}*/
+.todolist-task a{
+    text-decoration: none;
+    color: #1e1e1e;
+}
+.todolist-task a:hover{
+    color: #3d6bad;
+}
